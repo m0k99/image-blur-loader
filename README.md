@@ -18,11 +18,11 @@ Experience the smooth blur-to-sharp loading effect with our interactive product 
 ## 📦 Installation
 
 ```bash
-  npm install blurhash
-  # or
-  yarn add blurhash
-  # or
-  pnpm add blurhash
+npm install blurhash
+# or
+yarn add blurhash
+# or
+pnpm add blurhash
 ```
 
 ## 🛠️ Usage
@@ -133,20 +133,20 @@ The project uses Tailwind CSS with custom theme variables for seamless dark mode
 ## 🔧 Development
 
 1. Clone the repository:
-   \`\`\`bash
-   git clone https://github.com/yourusername/image-blur-loader.git
+   ```bash
+   git clone https://github.com/m0k99/image-blur-loader.git
    cd image-blur-loader
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Start the development server:
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
