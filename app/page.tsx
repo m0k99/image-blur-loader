@@ -17,23 +17,25 @@ export default function HomePage() {
             </div>
 
             {/* Search and Filters */}
-            <div className="flex items-center gap-3">
-              <div className="relative">
+            <div className="flex lg:flex-row flex-col items-center gap-3">
+              <div className="relative w-full">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
-                <Input placeholder="Search products..." className="pl-10 w-64" />
+                <Input placeholder="Search products..." className="pl-10 lg:w-64" />
               </div>
-              <Button variant="outline" size="icon">
-                <Filter className="h-4 w-4" />
-              </Button>
-              <div className="flex border rounded-md">
-                <Button variant="ghost" size="icon" className="rounded-r-none">
-                  <Grid3X3 className="h-4 w-4" />
+              <div className="w-full flex items-center gap-3 justify-end">
+                <Button variant="outline" size="icon">
+                  <Filter className="h-4 w-4" />
                 </Button>
-                <Button variant="ghost" size="icon" className="rounded-l-none border-l">
-                  <List className="h-4 w-4" />
-                </Button>
+                <div className="flex border rounded-md">
+                  <Button variant="ghost" size="icon" className="rounded-r-none">
+                    <Grid3X3 className="h-4 w-4" />
+                  </Button>
+                  <Button variant="ghost" size="icon" className="rounded-l-none border-l">
+                    <List className="h-4 w-4" />
+                  </Button>
+                </div>
+                <ThemeToggle />
               </div>
-              <ThemeToggle />
             </div>
           </div>
         </div>
