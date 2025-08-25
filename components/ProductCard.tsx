@@ -1,7 +1,7 @@
 "use client"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import BlurImage from "./blur-image"
+import BlurImage from "./BlurImage"
 
 type Product = {
   id: number

@@ -1,6 +1,6 @@
 "use client"
 import { useState, useEffect } from "react"
-import ProductCard from "./product-card"
+import ProductCard from "./ProductCard"
 import { Skeleton } from "@/components/ui/skeleton"
 
 type Product = {

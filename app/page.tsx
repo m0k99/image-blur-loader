@@ -2,7 +2,7 @@ import ProductGrid from "@/components/product-grid"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Search, Filter, Grid3X3, List } from "lucide-react"
-import { ThemeToggle } from "@/components/theme-toggle"
+import { ThemeToggle } from "@/components/ThemeToggle"
 
 export default function HomePage() {
   return (

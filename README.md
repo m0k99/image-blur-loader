@@ -30,17 +30,17 @@ Experience the smooth blur-to-sharp loading effect with our interactive product 
 ### Basic BlurImage Component
 
 ```tsx
-import { BlurImage } from '@/components/blur-image'
+import {BlurImage} from './BlurImage'
 
 function ProductCard() {
-return (
-<BlurImage
-    src="https://example.com/image.jpg"
-    alt="Product image"
-    hash="LGF5]+Yk^6#M@-5c,1J5@[or[Q6."
-    width={400}
-    height={300}
-    className="rounded-lg"
+  return (
+    <BlurImage
+      src="https://example.com/image.jpg"
+      alt="Product image"
+      hash="LGF5]+Yk^6#M@-5c,1J5@[or[Q6."
+      width={400}
+      height={300}
+      className="rounded-lg"
     />
   )
 }
@@ -117,11 +117,11 @@ image-blur-loader/
 │       └── products/
 │           └── route.ts   # Product data API endpoint
 ├── components/
-│   ├── blur-image.tsx     # Main blur image component
-│   ├── product-card.tsx   # Individual product card
+│   ├── BlurImage.tsx     # Main blur image component
+│   ├── ProductCard.tsx   # Individual product card
 │   ├── product-grid.tsx   # Product grid layout
-│   ├── theme-provider.tsx # Theme context provider
-│   └── theme-toggle.tsx   # Dark/light mode toggle
+│   ├── ThemeProvider.tsx # Theme context provider
+│   └── ThemeToggle.tsx   # Dark/light mode toggle
 └── README.md
 ```
 
